@@ -3,7 +3,7 @@ import { useState } from "react";
 // import fetch from "node-fetch";
 const api = {
   key: "ed01cc4f6c5d484c202e706f2269f0b6",
-  base: "http://api.openweathermap.org/data/2.5/"
+  base: "https://api.openweathermap.org/data/2.5/"
 }
 function App() {
   const [query, setQuery] = useState('');
